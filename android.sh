@@ -65,6 +65,6 @@ echo -e $BOSLUK
 echo "⌛ GEREKSİNİMLERİ KURUYORUM..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd siriinstaller
+cd userlandinstaller
 pip install -r requirements.txt
 python -m siri_installer
