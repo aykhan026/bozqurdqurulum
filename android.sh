@@ -1,10 +1,3 @@
-BOZQURD=" ______            _____               _ "
-BOZQURD+="\n | ___ \          |  _  |             | |"
-BOZQURD+="\n | |_/ / ___ ____ | | | |_   _ _ __ __| |"
-BOZQURD+="\n | ___ \/ _ \_  / | | | | | | | '__/ _` |"
-BOZQURD+="\n | |_/ / (_) / /  \ \/' / |_| | | | (_| |"
-BOZQURD+="\n \____/ \___/___|  \_/\_\\__,_|_|  \__,_|"
-                                        
 BOZQURD+="\n ⭑┗━━┫⦀⦙ BozQurd ⦙⦀┣━━┛⭑"
 MESAJ="\n ɃøƶQurđ UserBot Avtomatik deploya xoş gəldiniz"
 MESAJ+="\nBizi seçdiyiniz üçün təşəkkürlər"
