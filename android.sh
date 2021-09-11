@@ -22,7 +22,7 @@ clear
 echo -e $SIRI
 echo -e $YARDIM
 echo -e $BOSLUK
-echo "⏳ TERMUX GEREKSİNİMLERİNİ GÜNCELLİYORUM ⏳"
+echo "⏳ TERMUX TƏLƏBLƏRİ YENİLƏNİR ⏳"
 echo "⏳ I UPDATE YOUR REQUIREMENTS ⏳"
 echo -e $BOSLUK
 pkg update -y
@@ -31,7 +31,7 @@ echo -e $SIRI
 echo -e $BOSLUK
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ CİHAZINIZA PYTHON KURULUYOR ⌛"
+echo "⌛ CİHAZA PYTHON YAZILIR ⌛"
 echo "⌛ PYTHON IS INSTALLED ON YOUR DEVICE ⌛"
 echo -e $BOSLUK
 pkg install python -y
@@ -40,7 +40,7 @@ clear
 echo -e $SIRI
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ GIT KURULUYOR ⌛"
+echo "⌛ GIT QURULUR ⌛"
 echo "⌛ INSTALLING GIT ⌛"
 echo -e $BOSLUK
 pkg install git -y
@@ -48,7 +48,7 @@ clear
 echo -e $SIRI
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ TELETHON KURULUYOR ⌛"
+echo "⌛ TELETHON QURULUR ⌛"
 echo "⌛ INSTALLING TELETHON ⌛"
 echo -e $BOSLUK
 pip install telethon
@@ -56,18 +56,18 @@ clear
 echo -e $SIRI
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ DOSYALARI İNDİRİYORUM ⌛"
+echo "⌛ FAYLLAR YÜKLƏNİR ⌛"
 echo "⌛ I DOWNLOAD FİLES ⌛"
 echo -e $BOSLUK
-git clone https://github.com/aykhan026/userlandinstaller
+git clone https://github.com/aykhan026/bozqurdinstaller
 clear
 echo -e $SIRI
 echo -e $BOSLUK
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ GEREKSİNİMLERİ KURUYORUM..."
+echo "⌛ TƏLƏBLƏRİ QURURAM..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd userlandinstaller
+cd bozqurdinstaller
 pip install -r requirements.txt
-python -m siri_installer
+python -m bozqurd_installer
